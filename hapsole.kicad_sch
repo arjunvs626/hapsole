@@ -1634,6 +1634,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Crystal"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D"
 			(pin_numbers
 				(hide yes)
@@ -4912,6 +5085,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 118.11) (xy 217.17 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0982b6cd-33e5-458b-8447-abbb7f2c869d")
+	)
+	(wire
+		(pts
 			(xy 381 139.7) (xy 382.27 139.7)
 		)
 		(stroke
@@ -5019,6 +5202,16 @@
 			(type default)
 		)
 		(uuid "209daada-d53e-43d9-83d0-772099001642")
+	)
+	(wire
+		(pts
+			(xy 217.17 115.57) (xy 217.17 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a831d5-f725-41ee-854a-fc11cadafbe4")
 	)
 	(wire
 		(pts
@@ -5382,6 +5575,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 120.65) (xy 226.06 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8143aa6e-0237-4312-b481-5fb69071acc0")
+	)
+	(wire
+		(pts
 			(xy 217.17 71.12) (xy 209.55 71.12)
 		)
 		(stroke
@@ -5419,6 +5622,16 @@
 			(type default)
 		)
 		(uuid "8d8edecd-0649-43cb-a6c5-e26aeed6b9d0")
+	)
+	(wire
+		(pts
+			(xy 208.28 115.57) (xy 217.17 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e2385dc-2fce-4dac-8f6c-c6861cd84273")
 	)
 	(wire
 		(pts
@@ -5552,6 +5765,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 113.03) (xy 226.06 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c095c535-f6c1-4d9a-9958-ea8657cca617")
+	)
+	(wire
+		(pts
 			(xy 165.1 88.9) (xy 165.1 97.79)
 		)
 		(stroke
@@ -5679,6 +5902,16 @@
 			(type default)
 		)
 		(uuid "dcbe0147-f862-4931-a95e-1c1ef2885bf8")
+	)
+	(wire
+		(pts
+			(xy 217.17 118.11) (xy 217.17 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de078611-b818-4574-91e1-62ed460870ca")
 	)
 	(wire
 		(pts
@@ -8753,6 +8986,76 @@
 			(project "hapsole"
 				(path "/85cf9212-affa-4e9a-a568-1311b90cc1d6"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal")
+		(at 226.06 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a98d942c-e54d-4d60-802d-45bd0097a7aa")
+		(property "Reference" "Y1"
+			(at 229.87 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "32.768Khz"
+			(at 229.87 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 226.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bbd8981-80a2-4035-8569-8fd4fe8e1d51")
+		)
+		(pin "2"
+			(uuid "c7719702-2159-4b9f-9ec2-b4c1190acd51")
+		)
+		(instances
+			(project ""
+				(path "/85cf9212-affa-4e9a-a568-1311b90cc1d6"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
