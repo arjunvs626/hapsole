@@ -16520,7 +16520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm"
+		(property "Footprint" "Arjun_Custom:NRF52840"
 			(at 175.26 252.73 0)
 			(effects
 				(font
