@@ -1255,6 +1255,597 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Arjun_Custom:RGB_LED_P4_1010"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at -1.778 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RGB_LED_P4_1010_1_0"
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -6.35)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -6.35) (xy 2.54 -6.35)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.635) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.635) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.905) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 -1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.175) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -4.445) (xy 1.905 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 1.27 -4.445)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.715) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 1.905 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -0.635) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -2.54) (xy 1.27 -3.175)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -2.54) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -3.175) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -5.08) (xy 1.27 -5.715)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -5.08) (xy 1.905 -4.445)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -5.715) (xy 1.905 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -6.35) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 -2.54 0)
+					(length 0)
+					(name "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 0 180)
+					(length 0)
+					(name "R-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "R-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 -2.54 180)
+					(length 0)
+					(name "G-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "G-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 -5.08 180)
+					(length 0)
+					(name "B-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "B-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Arjun_Custom:YSX221SL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2515,483 +3106,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "LED:Inolux_IN-P55TATRGB"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -5.08 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Inolux_IN-P55TATRGB"
-				(at -5.08 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_Inolux_IN-P55TATRGB_PLCC6_5.0x5.5mm_P1.8mm"
-				(at -5.08 -8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/RGB%20Top%20View/IN-P55TATRGB.pdf"
-				(at -5.08 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inolux RGB LED, PLCC-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED RGB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*Inolux*PLCC6*5.0x5.5mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Inolux_IN-P55TATRGB_0_0"
-				(text "B"
-					(at -0.635 -3.3274 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "Inolux_IN-P55TATRGB_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -3.81 1.27) (xy -1.27 2.54) (xy -3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -3.81 -3.81) (xy -1.27 -2.54) (xy -3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 3.81) (xy -1.778 4.826)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 -1.27) (xy -1.778 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 4.572) (xy -1.778 4.826) (xy -2.032 4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -1.016) (xy -1.778 -0.254) (xy -2.54 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 3.81) (xy -0.762 4.826)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -1.27) (xy -0.762 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 4.572) (xy -0.762 4.826) (xy -1.016 4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy -0.762 -0.254) (xy -1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.81) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 3.81 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 1.27) (xy 3.302 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 1.524) (xy 3.302 2.286) (xy 2.54 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 1.27) (xy 4.318 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 2.032) (xy 4.318 2.286) (xy 4.064 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Inolux_IN-P55TATRGB_1_0"
-				(text "G"
-					(at -0.635 1.8034 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(text "R"
-					(at 4.4196 -0.7112 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "Inolux_IN-P55TATRGB_1_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "AG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "AR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "AB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "KG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "KR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "KB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6124,6 +6238,12 @@
 		(uuid "67df9bbc-b530-4d2e-a1ff-2d1f13efb683")
 	)
 	(junction
+		(at 60.96 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68fdf194-cc4f-4406-ad7a-234c2c46ae28")
+	)
+	(junction
 		(at 308.61 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6182,12 +6302,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a01dac08-6eb4-492b-a1a0-104566d55ff6")
-	)
-	(junction
-		(at 378.46 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a36ddc0e-b0d0-492d-9b66-d4d7b2e0751b")
 	)
 	(junction
 		(at 54.61 46.99)
@@ -6525,6 +6639,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 87.63) (xy 128.27 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1333d18d-2128-4433-8790-415bae2f6624")
+	)
+	(wire
+		(pts
 			(xy 255.27 40.64) (xy 255.27 39.37)
 		)
 		(stroke
@@ -6615,7 +6739,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 133.35) (xy 381 139.7)
+			(xy 381 129.54) (xy 381 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6702,6 +6826,16 @@
 			(type default)
 		)
 		(uuid "22f3e50b-1260-41d5-9a0a-ce8083ba9a3a")
+	)
+	(wire
+		(pts
+			(xy 60.96 85.09) (xy 60.96 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "240d55e5-dad2-422b-9df1-6901cb1236e9")
 	)
 	(wire
 		(pts
@@ -6845,16 +6979,6 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 118.11) (xy 381 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38e293cd-9ffa-47e8-be3f-022538c84ef5")
-	)
-	(wire
-		(pts
 			(xy 358.14 176.53) (xy 358.14 184.15)
 		)
 		(stroke
@@ -6902,16 +7026,6 @@
 			(type default)
 		)
 		(uuid "43755ad7-7cd3-41a2-b788-d211180c240d")
-	)
-	(wire
-		(pts
-			(xy 123.19 107.95) (xy 128.27 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43b1d2db-605f-4c9b-a7c1-93bbcd098a8f")
 	)
 	(wire
 		(pts
@@ -7455,7 +7569,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 139.7) (xy 375.92 133.35)
+			(xy 375.92 139.7) (xy 375.92 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7885,16 +7999,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 107.95) (xy 128.27 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8dc0b8f-f914-41a5-8502-6fb8100694e0")
-	)
-	(wire
-		(pts
 			(xy 177.8 101.6) (xy 175.26 101.6)
 		)
 		(stroke
@@ -7975,7 +8079,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 114.3) (xy 378.46 118.11)
+			(xy 378.46 114.3) (xy 378.46 121.92)
 		)
 		(stroke
 			(width 0)
@@ -8045,7 +8149,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 133.35) (xy 378.46 139.7)
+			(xy 378.46 129.54) (xy 378.46 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8305,16 +8409,6 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 118.11) (xy 378.46 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc158ae5-b04b-483d-a01a-b17cfb7bb7b5")
-	)
-	(wire
-		(pts
 			(xy 266.7 36.83) (xy 266.7 35.56)
 		)
 		(stroke
@@ -8385,16 +8479,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 110.49) (xy 60.96 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1407823-5893-4ddb-8a39-329a5b8109b6")
-	)
-	(wire
-		(pts
 			(xy 120.65 40.64) (xy 120.65 46.99)
 		)
 		(stroke
@@ -8445,16 +8529,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 109.22) (xy 123.19 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d29b4ac7-87db-4446-8d16-efd7e78de1c6")
-	)
-	(wire
-		(pts
 			(xy 330.2 123.19) (xy 330.2 120.65)
 		)
 		(stroke
@@ -8482,6 +8556,16 @@
 			(type default)
 		)
 		(uuid "d3ef3c88-6caa-494b-a138-66640a614f44")
+	)
+	(wire
+		(pts
+			(xy 123.19 109.22) (xy 128.27 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4636fdc-82cb-4a2e-9846-fe934ed3205c")
 	)
 	(wire
 		(pts
@@ -8562,6 +8646,16 @@
 			(type default)
 		)
 		(uuid "e007825f-d7cc-436d-98ae-4f99dadf6882")
+	)
+	(wire
+		(pts
+			(xy 60.96 110.49) (xy 60.96 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f5d8ab-2b47-4417-b8b7-20943587e4be")
 	)
 	(wire
 		(pts
@@ -10123,7 +10217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 384.81 223.52 0)
 			(effects
 				(font
@@ -10157,6 +10251,82 @@
 			(project ""
 				(path "/85cf9212-affa-4e9a-a568-1311b90cc1d6"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arjun_Custom:RGB_LED_P4_1010")
+		(at 381 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11230c0b-c179-4373-a6f3-1a2256600f2e")
+		(property "Reference" "LED1"
+			(at 383.54 125.0949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 383.54 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Arjun_Custom:RGB_LED_P4_1010"
+			(at 381 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 381 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "R-"
+			(uuid "2c8646e7-0eb5-4d55-938e-99ea90be7bb3")
+		)
+		(pin "G-"
+			(uuid "0cdfa38f-7bae-4d40-877e-8dcc1178fb17")
+		)
+		(pin "+"
+			(uuid "aaaa0c38-da3d-431a-a9f9-84db8c404e05")
+		)
+		(pin "B-"
+			(uuid "cfdba248-fbbd-40df-a5ba-b58e4d46c918")
+		)
+		(instances
+			(project ""
+				(path "/85cf9212-affa-4e9a-a568-1311b90cc1d6"
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -11420,7 +11590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 260.35 36.83 0)
 			(effects
 				(font
@@ -12397,90 +12567,6 @@
 			(project ""
 				(path "/85cf9212-affa-4e9a-a568-1311b90cc1d6"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:Inolux_IN-P55TATRGB")
-		(at 378.46 125.73 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62418ccf-6689-499c-b9b1-be734dd9c9d6")
-		(property "Reference" "D2"
-			(at 384.81 124.4599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Inolux_IN-P55TATRGB"
-			(at 384.81 126.9999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_Inolux_IN-P55TATRGB_PLCC6_5.0x5.5mm_P1.8mm"
-			(at 370.332 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/RGB%20Top%20View/IN-P55TATRGB.pdf"
-			(at 368.3 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inolux RGB LED, PLCC-6"
-			(at 378.46 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6be41cfc-b1c7-41d9-8a4b-5becbbeab85c")
-		)
-		(pin "5"
-			(uuid "1f7ef9de-17fd-4d72-8516-90c5a818893d")
-		)
-		(pin "1"
-			(uuid "d14caa2d-6bff-47d9-aeb2-7a495b6752ec")
-		)
-		(pin "4"
-			(uuid "446ca70e-b4c8-432c-8b9d-6cc326356ac2")
-		)
-		(pin "6"
-			(uuid "319f01b8-b49e-4d3d-b22d-ed4db0de8ccd")
-		)
-		(pin "2"
-			(uuid "25c1022a-20ef-4bc2-9638-5888333bfd88")
-		)
-		(instances
-			(project ""
-				(path "/85cf9212-affa-4e9a-a568-1311b90cc1d6"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -13640,7 +13726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 384.81 226.06 0)
 			(effects
 				(font
@@ -13705,7 +13791,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Arjun_Custom:Ant"
 			(at 105.41 132.08 0)
 			(effects
 				(font
@@ -13752,16 +13838,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 123.19 114.3 270)
+		(at 120.65 114.3 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "95ab1c15-6bba-4d3f-9bba-639972b1718d")
 		(property "Reference" "J3"
-			(at 124.46 112.3949 90)
+			(at 119.38 112.3949 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13770,7 +13856,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 124.46 114.9349 90)
+			(at 119.38 114.9349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13778,8 +13864,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Arjun_Custom:JST_S2B-PH-SM4-TB"
-			(at 123.19 114.3 0)
+		(property "Footprint" "Arjun_Custom:JST_S2B-ZR-SM4A-TF"
+			(at 120.65 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13788,7 +13874,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 114.3 0)
+			(at 120.65 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13797,7 +13883,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 123.19 114.3 0)
+			(at 120.65 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14522,16 +14608,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 60.96 115.57 270)
+		(at 58.42 115.57 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a98590fa-4927-4ab0-b4d0-3f20e1b874b8")
 		(property "Reference" "J2"
-			(at 62.23 113.6649 90)
+			(at 57.15 113.6649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14540,7 +14626,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 62.23 116.2049 90)
+			(at 57.15 116.2049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14548,8 +14634,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Arjun_Custom:JST_S2B-PH-SM4-TB"
-			(at 60.96 115.57 0)
+		(property "Footprint" "Arjun_Custom:JST_S2B-ZR-SM4A-TF"
+			(at 58.42 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14558,7 +14644,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 115.57 0)
+			(at 58.42 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14567,7 +14653,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 60.96 115.57 0)
+			(at 58.42 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14688,7 +14774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 384.81 231.14 0)
 			(effects
 				(font
@@ -15894,7 +15980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 251.46 34.29 0)
 			(effects
 				(font
@@ -16800,7 +16886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 384.81 228.6 0)
 			(effects
 				(font
