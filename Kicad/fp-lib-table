@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Hapsole_Custom")(type "KiCad")(uri "${KIPRJMOD}/Hapsole_Custom.pretty")(options "")(descr ""))
+)
