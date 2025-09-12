@@ -17447,7 +17447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Hapsole_Custom:Untitled"
 			(at 49.53 243.84 0)
 			(effects
 				(font
